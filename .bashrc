@@ -24,6 +24,10 @@ alias gk='gitk &'
 alias gda='git branch | grep -v "develop" | grep -v "release" | xargs git branch -D'
 alias gf='git fetch'
 
+#https://davidwalsh.name/pull-down-pr
+git config --global --add alias.pr '!f() { git fetch -fu ${2:-upstream} refs/pull/$1/head:pr/$1 && git checkout pr/$1; }; f'
+git config --global --add alias.pr-clean '!git checkout master ; git for-each-ref refs/heads/pr/* --format="%(refname)" | while read ref ; do branch=${ref#refs/heads/} ; git branch -D $branch ; done'
+
 # npm aliases
 alias ni="npm install";
 alias ns="npm run start -s --";
