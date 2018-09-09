@@ -23,6 +23,7 @@ alias gh='git push hozefa'
 alias gk='gitk &'
 alias gda='git branch | grep -v "develop" | grep -v "release" | xargs git branch -D'
 alias gf='git fetch'
+alias gl='git log -3'
 
 #https://davidwalsh.name/pull-down-pr
 git config --global --add alias.pr '!f() { git fetch -fu ${2:-upstream} refs/pull/$1/head:pr/$1 && git checkout pr/$1; }; f'
