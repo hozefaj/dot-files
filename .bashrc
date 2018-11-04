@@ -24,6 +24,8 @@ alias gk='gitk &'
 alias gda='git branch | grep -v "develop" | grep -v "release" | xargs git branch -D'
 alias gf='git fetch'
 alias gl='git log -3'
+# cleans all branches locally that have already been merged.
+alias gcmb="git branch --merged | grep -Ev '(^\*|develop)' | xargs git branch -d"
 
 #https://davidwalsh.name/pull-down-pr
 git config --global --add alias.pr '!f() { git fetch -fu ${2:-upstream} refs/pull/$1/head:pr/$1 && git checkout pr/$1; }; f'
