@@ -45,8 +45,6 @@ alias cl='clear'
 alias mpp='cd /Users/hjodiawalla/Desktop/MPP/MPPContent/ContentRoot'
 alias mppr='cd /Users/hjodiawalla/Desktop/MPP/MPPResources'
 alias kitsune='cd /Users/hjodiawalla/Desktop/MPP/mppnodeweb'
-alias gscr='cd /Users/hjodiawalla/Desktop/Misc/git-scripts'
-alias nscr='cd /Users/hjodiawalla/Desktop/Misc/node-scripts'
 alias utils='cd /Users/hjodiawalla/Desktop/MPP/Utils'
 alias cep='cd /Users/hjodiawalla/Desktop/CEP/campaigninsightnodeweb'
 
