@@ -40,6 +40,7 @@ alias rd="rm -rf node_modules;"
 
 #misc
 alias cl='clear'
+alias ls='ls --color=auto -ACF'
 
 #locations
 alias mpp='cd /Users/hjodiawalla/Desktop/MPP/MPPContent/ContentRoot'
