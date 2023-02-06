@@ -43,11 +43,6 @@ alias cl='clear'
 alias ls='ls --color=auto -ACF'
 
 #locations
-alias mpp='cd /Users/hjodiawalla/Desktop/MPP/MPPContent/ContentRoot'
-alias mppr='cd /Users/hjodiawalla/Desktop/MPP/MPPResources'
-alias kitsune='cd /Users/hjodiawalla/Desktop/MPP/mppnodeweb'
-alias utils='cd /Users/hjodiawalla/Desktop/MPP/Utils'
-alias cep='cd /Users/hjodiawalla/Desktop/CEP/campaigninsightnodeweb'
 
 #git branch in bash.
 parse_git_branch() {
